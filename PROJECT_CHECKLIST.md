@@ -2,47 +2,52 @@
 
 ## Estado conocido en Coursera
 
-- [x] Module Quiz: Starting the Project — aprobado con 97.5%.
-- [ ] Module Quiz: Database Queries, Procedures and Prepared Statements — 10%.
-- [ ] Module Quiz: Clients and Visualization — 10%.
-- [ ] Proyecto Little Lemon database — 50%.
-- [ ] Evaluación de compañero(s).
-- [ ] Final Graded Quiz: Database Engineer Capstone — 20%.
+- [x] Module Quiz: Starting the Project — 97.5%.
+- [ ] Confirmar en Coursera el estado actual del quiz de consultas y procedimientos.
+- [x] Module Quiz: Clients and Visualization — 100%.
+- [ ] Proyecto Little Lemon database — preparado localmente, todavía no enviado.
+- [ ] Revisar 2 proyectos de compañeros — se habilita después de entregar el proyecto.
+- [x] Final Graded Quiz: Database Engineer Capstone — 96.66%.
 
-## Proyecto: requisitos de la rúbrica
+## Entregables del proyecto
 
-- [ ] Repositorio GitHub creado y accesible.
-- [ ] Proyecto correcto incluido en el repositorio.
-- [ ] Diagrama ER claro con relaciones entre las tablas.
-- [ ] Modelo de MySQL Workbench incluido.
-- [ ] Archivo SQL con el esquema de Little Lemon.
-- [ ] Capturas y diagramas relevantes en PNG.
-- [ ] Workbook de Tableau con hojas y dashboard.
-- [ ] Procedimiento `GetMaxQuantity()` implementado y probado.
-- [ ] Procedimiento `ManageBooking()` implementado y probado.
-- [ ] Procedimiento `UpdateBooking()` implementado y probado.
-- [ ] Procedimiento `AddBooking()` implementado y probado.
-- [ ] Procedimiento `CancelBooking()` implementado y probado.
-- [ ] Cliente Python conectado a MySQL sin credenciales incrustadas.
-- [ ] Consultas del cliente Python probadas.
-- [ ] Datos preparados y analizados en Tableau.
-- [ ] README propio con instrucciones para reproducir el proyecto.
+- [x] Repositorio GitHub creado: `josegit321/little-lemon-capstone`.
+- [x] Diagrama ER legible con cinco tablas y cuatro relaciones.
+- [x] Modelo de MySQL Workbench incluido.
+- [x] Archivo SQL reproducible con esquema, restricciones, índices y datos de prueba.
+- [x] Vista, consultas y sentencia preparada incluidas.
+- [x] Procedimiento `GetMaxQuantity()` implementado y probado.
+- [x] Procedimiento `ManageBooking()` implementado y probado.
+- [x] Procedimiento `UpdateBooking()` implementado y probado.
+- [x] Procedimiento `AddBooking()` implementado y probado.
+- [x] Procedimiento `CancelBooking()` implementado y probado.
+- [x] Cliente Python conectado mediante variables de entorno.
+- [x] Consultas y llamadas a procedimientos desde Python probadas.
+- [x] Datos preparados para Tableau sin modificar el archivo original.
+- [x] Cuatro hojas solicitadas en Tableau.
+- [x] Dashboard con acción de filtro interactiva.
+- [x] Workbook empaquetado y evidencias PNG guardadas.
+- [x] README con instrucciones para reproducir el proyecto.
 
-## Evidencia mínima que debes conservar
+## Validación y evidencia
 
-- [ ] Captura del diagrama ER.
-- [ ] Captura del esquema creado en MySQL.
-- [ ] Salida de prueba de cada procedimiento.
-- [ ] Captura de la conexión y consultas del cliente Python.
-- [ ] Capturas de las hojas y el dashboard de Tableau.
-- [ ] Historial de commits que muestre tu progreso.
+- [x] Esquema y cinco procedimientos ejecutados en una instancia MySQL aislada.
+- [x] Cliente Python probado contra la misma base temporal.
+- [x] Diagrama ER exportado a PNG.
+- [x] Dashboard y visualización de cocinas exportados a PNG.
+- [x] Workbook `.twbx` comprobado con su extracto de datos incrustado.
+- [x] Acción de filtro del dashboard probada con una selección y un restablecimiento.
+- [x] Revisión de secretos realizada sobre los archivos que se publicarán.
+- [ ] Publicar los entregables finales en GitHub.
+- [ ] Abrir el enlace de GitHub sin iniciar sesión para confirmar acceso público.
 
-## Antes de enviar
+## Acciones personales antes de enviar
 
-- [ ] Ejecutar el SQL desde una base limpia sin errores.
-- [ ] Confirmar que ningún archivo contiene contraseñas.
-- [ ] Abrir el enlace de GitHub desde una ventana privada para comprobar acceso.
-- [ ] Leer y aceptar el Honor Code únicamente si la entrega refleja tu propio trabajo.
-- [ ] Revisar la entrega completa antes de presionar **Submit**.
+- [ ] Revisar los archivos y confirmar que reflejan tu trabajo y comprensión.
+- [ ] Pegar en Coursera el enlace público correcto de GitHub.
+- [ ] Completar título y descripción si el formulario los exige.
+- [ ] Leer y aceptar la declaración de autoría únicamente si estás de acuerdo.
+- [ ] Presionar **Submit**.
+- [ ] Completar las 2 revisiones de compañeros que se habiliten después.
 
-Nota: la página de calificaciones indicaba una evaluación de compañero, mientras que las instrucciones mencionaban dos. Para evitar bloqueos, realiza dos si Coursera te las ofrece.
+No se debe marcar la declaración ni enviar la evaluación automáticamente: esas dos acciones corresponden al estudiante.
