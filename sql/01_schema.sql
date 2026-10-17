@@ -98,7 +98,8 @@ INSERT INTO Customers (CustomerID, FullName, Email, ContactNumber) VALUES
     (1, 'Anna Iversen', 'anna.iversen@example.com', '+1-202-555-0101'),
     (2, 'Joakim Iversen', 'joakim.iversen@example.com', '+1-202-555-0102'),
     (3, 'Vanessa McCarthy', 'vanessa.mccarthy@example.com', '+1-202-555-0103'),
-    (4, 'Marcos Romero', 'marcos.romero@example.com', '+1-202-555-0104');
+    (4, 'Marcos Romero', 'marcos.romero@example.com', '+1-202-555-0104'),
+    (99, 'Peer Review Test Customer', 'peer.review@example.com', '+1-202-555-0199');
 
 INSERT INTO MenuItems (MenuItemID, Name, Category, Price, Description) VALUES
     (1, 'Greek Salad', 'Starter', 12.50, 'Tomatoes, cucumber, olives and feta'),
@@ -115,12 +116,12 @@ VALUES
     (3, 3, '2026-10-12', '17:30:00', 2, 2);
 
 INSERT INTO Orders (OrderID, CustomerID, OrderDate, TotalAmount, Status) VALUES
-    (1, 1, '2026-10-10 18:15:00', 61.00, 'Delivered'),
+    (1, 1, '2026-10-10 18:15:00', 95.50, 'Delivered'),
     (2, 2, '2026-10-11 19:20:00', 73.50, 'Delivered'),
     (3, 3, '2026-10-12 17:45:00', 36.00, 'Preparing');
 
 INSERT INTO OrderItems (OrderItemID, OrderID, MenuItemID, Quantity, UnitPrice) VALUES
-    (1, 1, 1, 2, 12.50),
+    (1, 1, 1, 5, 12.50),
     (2, 1, 3, 1, 24.00),
     (3, 1, 5, 1, 9.00),
     (4, 2, 2, 3, 8.50),

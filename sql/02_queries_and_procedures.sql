@@ -155,8 +155,8 @@ DROP PROCEDURE IF EXISTS AddBooking //
 CREATE PROCEDURE AddBooking(
     IN p_booking_id INT,
     IN p_customer_id INT,
-    IN p_booking_date DATE,
-    IN p_table_number INT
+    IN p_table_number INT,
+    IN p_booking_date DATE
 )
 main: BEGIN
     DECLARE EXIT HANDLER FOR SQLEXCEPTION
@@ -250,5 +250,6 @@ CALL GetMaxQuantity();
 CALL ManageBooking('2026-10-10', 5);
 CALL ManageBooking('2026-10-13', 5);
 CALL UpdateBooking(3, '2026-10-14');
-CALL AddBooking(4, 4, '2026-10-15', 4);
-CALL CancelBooking(4);
+-- Coursera peer-review test: BookingID, CustomerID, TableNumber, BookingDate.
+CALL AddBooking(99, 99, 99, '2022-12-10');
+CALL CancelBooking(99);
